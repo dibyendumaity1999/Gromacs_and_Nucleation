@@ -1,7 +1,7 @@
-title                   = NaCl NPT equilibration 
+title                   =  NaCL solution MD simulation 
 ; Run parameters
 integrator              = md        ; leap-frog integrator
-nsteps                  = 500000    ; 2 * 500000 = 1000 ps (1 ns)
+nsteps                  = 1000000    ; 2 * 500000 = 1000 ps (1 ns)
 dt                      = 0.002     ; 2 fs
 ; Output control
 nstxout                 = 0         ; suppress bulky .trr file by specifying 
@@ -28,10 +28,10 @@ coulombtype             = PME       ; Particle Mesh Ewald for long-range electro
 pme_order               = 4         ; cubic interpolation
 fourierspacing          = 0.16      ; grid spacing for FFT
 ; Temperature coupling is on
-tcoupl                  = V-rescale             ; modified Berendsen thermostat
-tc-grps                 = Water_and_ions   ; two coupling groups - more accurate
-tau_t                   = 0.1               ; time constant, in ps
-ref_t                   = 300               ; reference temperature, one for each group, in K
+tcoupl                  = V-rescale            ; modified Berendsen thermostat
+tc-grps                 = SOL	NA	CL     ; two coupling groups - more accurate
+tau_t                   = 0.1	0.1	0.1    ; time constant, in ps
+ref_t                   = 300   300	300    ; reference temperature, one for each group, in K
 ; Pressure coupling is on
 pcoupl                  = Parrinello-Rahman     ; Pressure coupling on in NPT
 pcoupltype              = isotropic             ; uniform scaling of box vectors

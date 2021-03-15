@@ -1,5 +1,5 @@
-Log file opened on Thu Mar 11 19:21:23 2021
-Host: LAPTOP-IU9KBB2P  pid: 1161  rank ID: 0  number of ranks:  1
+Log file opened on Sat Mar 13 23:49:53 2021
+Host: LAPTOP-IU9KBB2P  pid: 198  rank ID: 0  number of ranks:  1
                    :-) GROMACS - gmx mdrun, VERSION 5.1.1 (-:
 
                             GROMACS is written by:
@@ -129,13 +129,13 @@ Input Parameters:
    integrator                     = steep
    tinit                          = 0
    dt                             = 0.001
-   nsteps                         = 50000
+   nsteps                         = 100000
    init-step                      = 0
    simulation-part                = 1
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 1533145328
+   ld-seed                        = 1758452464
    emtol                          = 1000
    emstep                         = 0.01
    niter                          = 20
@@ -173,9 +173,9 @@ Input Parameters:
    DispCorr                       = No
    table-extension                = 1
    fourierspacing                 = 0.12
-   fourier-nx                     = 25
-   fourier-ny                     = 25
-   fourier-nz                     = 25
+   fourier-nx                     = 36
+   fourier-ny                     = 36
+   fourier-nz                     = 36
    pme-order                      = 4
    ewald-rtol                     = 1e-05
    ewald-rtol-lj                  = 0.001
@@ -282,7 +282,7 @@ qm-opts:
    userreal3                      = 0
    userreal4                      = 0
 grpopts:
-   nrdf:        5109
+   nrdf:       12519
    ref-t:           0
    tau-t:           0
 annealing:          No
@@ -331,125 +331,129 @@ J. Comp. Chem. 13 (1992) pp. 952-962
 -------- -------- --- Thank You --- -------- --------
 
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Thu Mar 11 19:21:24 2021
+Started Steepest Descents on rank 0 Sat Mar 13 23:49:54 2021
 
 Steepest Descents:
    Tolerance (Fmax)   =  1.00000e+03
-   Number of steps    =        50000
+   Number of steps    =       100000
            Step           Time         Lambda
               0        0.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    5.23583e+04   -5.22345e+04    1.05132e+04    1.06371e+04   -8.57331e+03
+    1.91474e+05   -1.33214e+05    3.05889e+04    8.88488e+04   -2.14799e+04
 
            Step           Time         Lambda
               1        1.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    4.22655e+04   -5.22877e+04    1.05081e+04    4.85891e+02   -1.22097e+04
+    1.09526e+05   -1.33089e+05    3.05965e+04    7.03386e+03   -2.15109e+04
 
            Step           Time         Lambda
               2        2.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    3.26768e+04   -5.24050e+04    1.04850e+04   -9.24322e+03   -1.57790e+04
+    9.02506e+04   -1.33013e+05    3.05965e+04   -1.21660e+04   -2.16893e+04
 
            Step           Time         Lambda
               3        3.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    2.47164e+04   -5.26768e+04    1.03974e+04   -1.75630e+04   -1.82345e+04
+    7.14952e+04   -1.33145e+05    3.05232e+04   -3.11266e+04   -2.21796e+04
 
            Step           Time         Lambda
               4        4.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.89517e+04   -5.33765e+04    1.00661e+04   -2.43587e+04   -1.96655e+04
+    5.50260e+04   -1.33652e+05    3.01720e+04   -4.84535e+04   -2.24101e+04
 
            Step           Time         Lambda
               5        5.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.47311e+04   -5.50216e+04    9.06020e+03   -3.12303e+04   -2.09386e+04
+    4.22675e+04   -1.35285e+05    2.87532e+04   -6.42643e+04   -2.27071e+04
 
            Step           Time         Lambda
               6        6.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.21013e+04   -5.72977e+04    7.39291e+03   -3.78034e+04   -2.20713e+04
+    3.35488e+04   -1.39722e+05    2.46412e+04   -8.15320e+04   -2.37388e+04
 
            Step           Time         Lambda
               7        7.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.12114e+04   -5.84313e+04    6.55736e+03   -4.06626e+04   -2.24655e+04
+    3.08001e+04   -1.42413e+05    2.19802e+04   -8.96324e+04   -2.41438e+04
 
            Step           Time         Lambda
               8        8.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.03784e+04   -6.00527e+04    5.38894e+03   -4.42853e+04   -2.29186e+04
+    2.86009e+04   -1.45843e+05    1.86213e+04   -9.86208e+04   -2.47119e+04
 
            Step           Time         Lambda
               9        9.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    9.66035e+03   -6.21506e+04    3.97734e+03   -4.85129e+04   -2.32876e+04
+    2.67277e+04   -1.49071e+05    1.53292e+04   -1.07014e+05   -2.49936e+04
 
            Step           Time         Lambda
              10       10.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    9.25183e+03   -6.30563e+04    3.53575e+03   -5.02687e+04   -2.35729e+04
+    2.57471e+04   -1.51525e+05    1.32262e+04   -1.12552e+05   -2.52651e+04
 
            Step           Time         Lambda
              11       11.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.99352e+03   -6.36713e+04    3.29794e+03   -5.13799e+04   -2.37719e+04
+    2.44733e+04   -1.54543e+05    1.06934e+04   -1.19376e+05   -2.54424e+04
 
            Step           Time         Lambda
              12       12.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.82558e+03   -6.47690e+04    2.80492e+03   -5.31385e+04   -2.40080e+04
+    2.39130e+04   -1.56165e+05    9.70848e+03   -1.22544e+05   -2.56469e+04
 
            Step           Time         Lambda
              13       13.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    9.10958e+03   -6.54249e+04    2.58153e+03   -5.37338e+04   -2.42731e+04
+    2.29322e+04   -1.59355e+05    7.67348e+03   -1.28750e+05   -2.58907e+04
 
            Step           Time         Lambda
              14       14.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.74936e+03   -6.57702e+04    2.42835e+03   -5.45925e+04   -2.40893e+04
+    2.24819e+04   -1.60210e+05    7.30744e+03   -1.30421e+05   -2.60386e+04
 
            Step           Time         Lambda
              15       15.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.64452e+03   -6.61629e+04    2.29131e+03   -5.52270e+04   -2.43981e+04
+    2.48581e+04   -1.65551e+05    4.74607e+03   -1.35947e+05   -2.54172e+04
 
            Step           Time         Lambda
              16       16.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
+    2.17452e+04   -1.65389e+05    4.75053e+03   -1.38893e+05   -2.64648e+04
 
            Step           Time         Lambda
              17       17.00000        0.00000
@@ -457,75 +461,71 @@ Steepest Descents:
            Step           Time         Lambda
              18       18.00000        0.00000
 
-   Energies (kJ/mol)
-        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.55949e+03   -6.62470e+04    2.25487e+03   -5.54326e+04   -2.44592e+04
-
            Step           Time         Lambda
              19       19.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.34044e+03   -6.62654e+04    2.25458e+03   -5.56704e+04   -2.45061e+04
+    2.08917e+04   -1.66068e+05    4.84644e+03   -1.40330e+05   -2.67879e+04
 
            Step           Time         Lambda
              20       20.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.19666e+03   -6.65320e+04    2.15833e+03   -5.61770e+04   -2.45821e+04
+    2.05601e+04   -1.66638e+05    4.53408e+03   -1.41543e+05   -2.68746e+04
 
            Step           Time         Lambda
              21       21.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.60689e+03   -6.74491e+04    1.93864e+03   -5.69036e+04   -2.43956e+04
+    2.04478e+04   -1.67294e+05    4.36706e+03   -1.42479e+05   -2.69809e+04
 
            Step           Time         Lambda
              22       22.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.96188e+03   -6.73532e+04    1.93402e+03   -5.74573e+04   -2.48152e+04
+    2.21747e+04   -1.69133e+05    3.98821e+03   -1.42970e+05   -2.64150e+04
 
            Step           Time         Lambda
              23       23.00000        0.00000
 
-           Step           Time         Lambda
-             24       24.00000        0.00000
-
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.95576e+03   -6.79314e+04    1.73567e+03   -5.82400e+04   -2.50792e+04
+    2.05078e+04   -1.68826e+05    3.98503e+03   -1.44333e+05   -2.72002e+04
+
+           Step           Time         Lambda
+             24       24.00000        0.00000
 
            Step           Time         Lambda
              25       25.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.82236e+03   -6.81200e+04    1.71876e+03   -5.85788e+04   -2.51989e+04
+    2.04120e+04   -1.69441e+05    3.87289e+03   -1.45157e+05   -2.73296e+04
 
            Step           Time         Lambda
              26       26.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.79244e+03   -6.88663e+04    1.52113e+03   -5.95528e+04   -2.54291e+04
+    2.02877e+04   -1.69872e+05    3.73984e+03   -1.45845e+05   -2.73868e+04
 
            Step           Time         Lambda
              27       27.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    8.25390e+03   -6.95394e+04    1.54125e+03   -5.97442e+04   -2.56884e+04
+    2.12375e+04   -1.70909e+05    3.56464e+03   -1.46107e+05   -2.72214e+04
 
            Step           Time         Lambda
              28       28.00000        0.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.76281e+03   -6.97575e+04    1.39061e+03   -6.06041e+04   -2.58656e+04
+    2.02049e+04   -1.70893e+05    3.53888e+03   -1.47149e+05   -2.75713e+04
 
            Step           Time         Lambda
              29       29.00000        0.00000
@@ -535,7 +535,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.77931e+03   -7.00399e+04    1.33858e+03   -6.09220e+04   -2.58988e+04
+    2.04476e+04   -1.71656e+05    3.29708e+03   -1.47911e+05   -2.76182e+04
 
            Step           Time         Lambda
              31       31.00000        0.00000
@@ -545,13 +545,44 @@ Steepest Descents:
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    7.68147e+03   -7.01612e+04    1.30914e+03   -6.11706e+04   -2.60035e+04
+    2.01708e+04   -1.71904e+05    3.30130e+03   -1.48432e+05   -2.77396e+04
+
+           Step           Time         Lambda
+             33       33.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
+    2.03935e+04   -1.72560e+05    3.13760e+03   -1.49029e+05   -2.77688e+04
+
+           Step           Time         Lambda
+             34       34.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
+    2.02848e+04   -1.72786e+05    3.14549e+03   -1.49355e+05   -2.78861e+04
+
+           Step           Time         Lambda
+             35       35.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
+    2.02324e+04   -1.73225e+05    3.00905e+03   -1.49983e+05   -2.79536e+04
+
+           Step           Time         Lambda
+             36       36.00000        0.00000
+
+           Step           Time         Lambda
+             37       37.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
+    2.02493e+04   -1.73421e+05    2.98051e+03   -1.50191e+05   -2.79722e+04
 
 
-Steepest Descents converged to Fmax < 1000 in 33 steps
-Potential Energy  = -6.1170590e+04
-Maximum force     =  8.6065143e+02 on atom 2473
-Norm of force     =  7.9312027e+01
+Steepest Descents converged to Fmax < 1000 in 38 steps
+Potential Energy  = -1.5019127e+05
+Maximum force     =  4.7143808e+02 on atom 6101
+Norm of force     =  5.8952389e+01
 
 	M E G A - F L O P S   A C C O U N T I N G
 
@@ -562,19 +593,19 @@ Norm of force     =  7.9312027e+01
 
  Computing:                               M-Number         M-Flops  % Flops
 -----------------------------------------------------------------------------
- Pair Search distance check              27.562722         248.064     6.2
- NxN Ewald Elec. + LJ [V&F]              19.192624        2053.611    51.2
- NxN Ewald Elec. [V&F]                   18.081904        1518.880    37.9
- Calc Weights                             0.249678           8.988     0.2
- Spread Q Bspline                         5.326464          10.653     0.3
- Gather F Bspline                         5.326464          31.959     0.8
- 3D-FFT                                  14.366880         114.935     2.9
- Solve PME                                0.020625           1.320     0.0
- Shift-X                                  0.083226           0.499     0.0
- Virial                                   0.084711           1.525     0.0
- Settle                                   0.053988          17.438     0.4
+ Pair Search distance check              77.076108         693.685     6.1
+ NxN Ewald Elec. + LJ [V&F]              53.669952        5742.685    50.7
+ NxN Ewald Elec. [V&F]                   50.668672        4256.168    37.5
+ Calc Weights                             0.704862          25.375     0.2
+ Spread Q Bspline                        15.037056          30.074     0.3
+ Gather F Bspline                        15.037056          90.222     0.8
+ 3D-FFT                                  54.995424         439.963     3.9
+ Solve PME                                0.049248           3.152     0.0
+ Shift-X                                  0.234954           1.410     0.0
+ Virial                                   0.236664           4.260     0.0
+ Settle                                   0.152684          49.317     0.4
 -----------------------------------------------------------------------------
- Total                                                    4007.873   100.0
+ Total                                                   11336.312   100.0
 -----------------------------------------------------------------------------
 
 
@@ -585,24 +616,24 @@ On 1 MPI rank, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    8         33       0.013          0.445   8.5
- Force                  1    8         33       0.015          0.502   9.6
- PME mesh               1    8         33       0.005          0.183   3.5
- NB X/F buffer ops.     1    8         33       0.002          0.082   1.6
- Constraints            1    8         65       0.014          0.483   9.2
- Rest                                           0.105          3.536  67.6
+ Neighbor search        1    8         38       0.037          1.266   6.4
+ Force                  1    8         38       0.034          1.146   5.8
+ PME mesh               1    8         38       0.019          0.642   3.2
+ NB X/F buffer ops.     1    8         38       0.002          0.062   0.3
+ Constraints            1    8         75       0.159          5.380  27.1
+ Rest                                           0.336         11.352  57.2
 -----------------------------------------------------------------------------
- Total                                          0.155          5.230 100.0
+ Total                                          0.587         19.848 100.0
 -----------------------------------------------------------------------------
  Breakdown of PME mesh computation
 -----------------------------------------------------------------------------
- PME spread/gather      1    8         66       0.004          0.119   2.3
- PME 3D-FFT             1    8         66       0.001          0.048   0.9
- PME solve Elec         1    8         33       0.000          0.013   0.2
+ PME spread/gather      1    8         76       0.013          0.455   2.3
+ PME 3D-FFT             1    8         76       0.004          0.142   0.7
+ PME solve Elec         1    8         38       0.001          0.039   0.2
 -----------------------------------------------------------------------------
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.375        0.155      242.3
+       Time:        3.375        0.587      574.6
                (steps/hour)
-Performance:       767545.0
-Finished mdrun on rank 0 Thu Mar 11 19:21:24 2021
+Performance:       232910.9
+Finished mdrun on rank 0 Sat Mar 13 23:49:54 2021
